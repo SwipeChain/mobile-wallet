@@ -1,24 +1,6 @@
-# Ark Mobile
+# SwipeChain Mobile Wallet
 
-<p align="center">
-    <img src="./banner.png" />
-</p>
-
-> A Wallet for Everyone
-
-[![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/mobile-wallet)](https://circleci.com/gh/ArkEcosystem/mobile-wallet)
-[![Codecov](https://badgen.now.sh/codecov/c/github/arkecosystem/mobile-wallet)](https://codecov.io/gh/arkecosystem/mobile-wallet)
-[![Latest Version](https://badgen.now.sh/github/release/ArkEcosystem/mobile-wallet)](https://github.com/ArkEcosystem/mobile-wallet/releases/latest)
-[![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
-
-> Lead Maintainer: [Lúcio Rubens](https://github.com/luciorubeens)
-
-ARK’s mobile wallet is a hybrid application (using the same codebase for Android and iOS which helps with coordinated development).
-
-## Download
-
--   [Google Play](https://play.google.com/store/apps/details?id=io.ark.wallet.mobile)
--   [App Store](https://itunes.apple.com/us/app/mobile-ark/id1324625967)
+SwipeChain’s mobile wallet is a hybrid application (using the same codebase for Android and iOS which helps with coordinated development).
 
 ## Installation
 
@@ -102,7 +84,7 @@ npm run build:android
 -   Generate a private key to sign the APK (skip this if you already have one):
 
 ```bash
-keytool -genkey -v -keystore release-key.keystore -alias ark -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore release-key.keystore -alias swipechain -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 -   Sign the unsigned APK:
@@ -128,13 +110,11 @@ npm test
 ## Contributing
 
 -   If you find any bugs, submit an [issue](../../issues) or open [pull-request](../../pulls), helping us catch and fix them.
--   Engage with other users and developers on [ARK Slack](https://ark.io/slack/).
--   [Contribution bounties](https://docs.ark.io/guidebook/contribution-guidelines/contributing.html).
 -   [Help translate](./TRANSLATING.md).
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to security@swipechain.org. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
